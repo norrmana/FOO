@@ -4,6 +4,11 @@ import java.util.Date;
 
 public class HelloWorld {
 
+	public String MVU6055() {
+		return "HelloWorld [getClass()=" + getClass() + ", hashCode()="
+				+ hashCode() + ", toString()=" + super.toString() + "]";
+	}
+
 	/**
 	 * Test
 	 * MVU-first change
@@ -11,8 +16,9 @@ public class HelloWorld {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println(new Date().toString());
+		System.out.println(new Date().toString());	 
 		
 	}
+	
 
 }
