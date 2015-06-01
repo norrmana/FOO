@@ -12,5 +12,9 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println(new Date().toString());
 	}
+	
+	private void foobar(){
+		String foo ="MVU3333";
+	}
 
 }
